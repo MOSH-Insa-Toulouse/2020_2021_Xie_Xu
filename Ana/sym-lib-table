@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name aime)(type Legacy)(uri ${KIPRJMOD}/library/aime.lib)(options "")(descr ""))
+  (lib (name Ana-rescue)(type Legacy)(uri ${KIPRJMOD}/Ana-rescue.lib)(options "")(descr ""))
+)

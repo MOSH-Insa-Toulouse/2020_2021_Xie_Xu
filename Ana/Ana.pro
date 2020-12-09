@@ -1,4 +1,4 @@
-update=2020/12/4 星期五 14:25:41
+update=09/12/2020 10:46:31
 version=1
 last_client=kicad
 [cvpcb]
@@ -9,20 +9,10 @@ version=1
 [eeschema]
 version=1
 LibDir=
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=Pcbnew
-SpiceAjustPassiveValues=0
-LabSize=50
-ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=TDkicad_01.net
+LastNetListRead=Ana.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
