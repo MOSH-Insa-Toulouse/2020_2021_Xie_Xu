@@ -1,5 +1,7 @@
 # 2020_2021- Qiang XU and Xiaotong XIE in 5ISS 
 
+<div align=center><img src="Images/Insalogo.jpg" alt="test"/></div>
+
 Our class in SMART DEVICES
 
 Contact : [Qiang XU](qxu@etud.insa-toulouse.fr)
@@ -60,7 +62,7 @@ If you want, you can place a tractor or Trump model on the circuit board
 
 ## Component placement
 
-<div align=center><img width="150" height="150" src="Images/Placement.jpg" alt="test"/></div>
+![Schematic diagram](Images/Placement.jpg)
 
 ## Routage
 
