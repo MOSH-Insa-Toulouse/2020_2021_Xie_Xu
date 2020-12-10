@@ -3,4 +3,5 @@
   (lib (name Ana-rescue)(type Legacy)(uri ${KIPRJMOD}/Ana-rescue.lib)(options "")(descr "")(disabled))
   (lib (name rn2483)(type Legacy)(uri ${KIPRJMOD}/library/rn2483.lib)(options "")(descr ""))
   (lib (name Device)(type Legacy)(uri ${KIPRJMOD}/library/Device.lib)(options "")(descr ""))
+  (lib (name RN2483_Breakout)(type Legacy)(uri ${KIPRJMOD}/library/RN2483_Breakout.lib)(options "")(descr ""))
 )

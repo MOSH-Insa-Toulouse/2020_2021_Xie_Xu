@@ -1,4 +1,4 @@
-19035694950510813
+19038910615216583
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -58667,12 +58667,26 @@ Mounting 4.5mm 9774100982
 8
 1
 MyAIME
+Module_RN2483_Breakout
+
+
+0
+8
+8
+MyAIME
 RN2483
 Low-Power Long Range LoRa Transceiver Module
 rf module lora lorawan
 0
 47
 47
+MyAIME
+SIP-8
+
+
+0
+12
+8
 MyAIME
 TO-5-10_Window
 TO-5-10_Window, Window

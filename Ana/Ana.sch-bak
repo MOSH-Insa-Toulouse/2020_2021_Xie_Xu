@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 1
 Title "AIME Smart Sensor"
 Date "2020-12-09"
-Rev "1.0"
+Rev "2.0"
 Comp "INSA Toulouse 5ISS Groupe-2"
 Comment1 "Qiang XU"
 Comment2 "Xiaotong XIE"
@@ -78,10 +78,10 @@ $EndComp
 Text Label 8650 1800 0    60   ~ 0
 ~Reset
 $Comp
-L power:+3.3V #PWR07
+L power:+3.3V #PWR08
 U 1 1 56D70538
 P 9150 1450
-F 0 "#PWR07" H 9150 1300 50  0001 C CNN
+F 0 "#PWR08" H 9150 1300 50  0001 C CNN
 F 1 "+3.3V" V 9150 1700 50  0000 C CNN
 F 2 "" H 9150 1450 50  0000 C CNN
 F 3 "" H 9150 1450 50  0000 C CNN
@@ -89,10 +89,10 @@ F 3 "" H 9150 1450 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR06
+L power:+5V #PWR07
 U 1 1 56D707BB
 P 9050 1350
-F 0 "#PWR06" H 9050 1200 50  0001 C CNN
+F 0 "#PWR07" H 9050 1200 50  0001 C CNN
 F 1 "+5V" V 9050 1550 50  0000 C CNN
 F 2 "" H 9050 1350 50  0000 C CNN
 F 3 "" H 9050 1350 50  0000 C CNN
@@ -100,10 +100,10 @@ F 3 "" H 9050 1350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR08
+L power:GND #PWR09
 U 1 1 56D70CC2
 P 9300 3150
-F 0 "#PWR08" H 9300 2900 50  0001 C CNN
+F 0 "#PWR09" H 9300 2900 50  0001 C CNN
 F 1 "GND" H 9300 3000 50  0000 C CNN
 F 2 "" H 9300 3150 50  0000 C CNN
 F 3 "" H 9300 3150 50  0000 C CNN
@@ -111,10 +111,10 @@ F 3 "" H 9300 3150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR09
+L power:GND #PWR010
 U 1 1 56D70CFF
 P 10300 3150
-F 0 "#PWR09" H 10300 2900 50  0001 C CNN
+F 0 "#PWR010" H 10300 2900 50  0001 C CNN
 F 1 "GND" H 10300 3000 50  0000 C CNN
 F 2 "" H 10300 3150 50  0000 C CNN
 F 3 "" H 10300 3150 50  0000 C CNN
@@ -254,8 +254,6 @@ Wire Wire Line
 Wire Wire Line
 	10200 1300 10550 1300
 Wire Wire Line
-	10200 1200 10550 1200
-Wire Wire Line
 	10200 3000 10550 3000
 Wire Wire Line
 	10200 2900 10550 2900
@@ -364,10 +362,10 @@ PolySi7
 Text Label 7700 2600 0    50   ~ 0
 PolySi2
 $Comp
-L power:GND #PWR03
+L power:GND #PWR04
 U 1 1 5FD2A34A
 P 6800 850
-F 0 "#PWR03" H 6800 600 50  0001 C CNN
+F 0 "#PWR04" H 6800 600 50  0001 C CNN
 F 1 "GND" H 6800 700 50  0000 C CNN
 F 2 "" H 6800 850 50  0000 C CNN
 F 3 "" H 6800 850 50  0000 C CNN
@@ -375,10 +373,10 @@ F 3 "" H 6800 850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR04
+L power:+3.3V #PWR05
 U 1 1 5FD2FF65
 P 7300 850
-F 0 "#PWR04" H 7300 700 50  0001 C CNN
+F 0 "#PWR05" H 7300 700 50  0001 C CNN
 F 1 "+3.3V" V 7300 1100 50  0000 C CNN
 F 2 "" H 7300 850 50  0000 C CNN
 F 3 "" H 7300 850 50  0000 C CNN
@@ -386,10 +384,10 @@ F 3 "" H 7300 850 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:+5V #PWR05
+L power:+5V #PWR06
 U 1 1 5FD2FF6B
 P 7800 850
-F 0 "#PWR05" H 7800 700 50  0001 C CNN
+F 0 "#PWR06" H 7800 700 50  0001 C CNN
 F 1 "+5V" V 7800 1050 50  0000 C CNN
 F 2 "" H 7800 850 50  0000 C CNN
 F 3 "" H 7800 850 50  0000 C CNN
@@ -397,10 +395,10 @@ F 3 "" H 7800 850 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector:Conn_01x02_Female J1
+L Connector:Conn_01x02_Female J2
 U 1 1 5FD46AE3
 P 7450 3300
-F 0 "J1" H 7478 3276 50  0000 L CNN
+F 0 "J2" H 7478 3276 50  0000 L CNN
 F 1 "Conn_01x02_Female" H 7478 3185 50  0000 L CNN
 F 2 "Connector_PinSocket_1.27mm:PinSocket_1x02_P1.27mm_Vertical" H 7450 3300 50  0001 C CNN
 F 3 "~" H 7450 3300 50  0001 C CNN
@@ -486,7 +484,7 @@ U 1 1 5FD2366B
 P 1250 2700
 F 0 "C1" H 1365 2746 50  0000 L CNN
 F 1 "100n" H 1365 2655 50  0000 L CNN
-F 2 "Capacitor_THT:C_Radial_D5.0mm_H7.0mm_P2.00mm" H 1288 2550 50  0001 C CNN
+F 2 "Capacitor_THT:C_Radial_D4.0mm_H5.0mm_P1.50mm" H 1288 2550 50  0001 C CNN
 F 3 "~" H 1250 2700 50  0001 C CNN
 	1    1250 2700
 	1    0    0    -1  
@@ -494,10 +492,10 @@ $EndComp
 NoConn ~ 2900 1600
 NoConn ~ 2900 2200
 $Comp
-L Amplifier_Instrumentation:LTC1100xN8 U2
+L Amplifier_Instrumentation:LTC1100xN8 U1
 U 1 1 5FD3211E
 P 2900 1900
-F 0 "U2" H 3244 1854 50  0000 L CNN
+F 0 "U1" H 3244 1854 50  0000 L CNN
 F 1 "LTC1100xN8" H 3244 1945 50  0000 L CNN
 F 2 "Package_DIP:DIP-8_W7.62mm" H 2900 1900 50  0001 C CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/1100fc.pdf" H 2900 1900 50  0001 C CNN
@@ -510,7 +508,7 @@ U 1 1 5FD27FBD
 P 3650 1750
 F 0 "C3" H 3765 1796 50  0000 L CNN
 F 1 "1u" H 3765 1705 50  0000 L CNN
-F 2 "Capacitor_THT:C_Radial_D5.0mm_H7.0mm_P2.00mm" H 3688 1600 50  0001 C CNN
+F 2 "Capacitor_THT:C_Radial_D4.0mm_H5.0mm_P1.50mm" H 3688 1600 50  0001 C CNN
 F 3 "~" H 3650 1750 50  0001 C CNN
 	1    3650 1750
 	1    0    0    -1  
@@ -521,7 +519,7 @@ U 1 1 5FD269EA
 P 3250 2600
 F 0 "C2" H 3365 2646 50  0000 L CNN
 F 1 "100n" H 3365 2555 50  0000 L CNN
-F 2 "Capacitor_THT:C_Radial_D5.0mm_H7.0mm_P2.00mm" H 3288 2450 50  0001 C CNN
+F 2 "Capacitor_THT:C_Radial_D4.0mm_H5.0mm_P1.50mm" H 3288 2450 50  0001 C CNN
 F 3 "~" H 3250 2600 50  0001 C CNN
 	1    3250 2600
 	1    0    0    -1  
@@ -532,7 +530,7 @@ U 1 1 5FD25400
 P 4850 2250
 F 0 "C4" H 4965 2296 50  0000 L CNN
 F 1 "100n" H 4965 2205 50  0000 L CNN
-F 2 "Capacitor_THT:C_Radial_D5.0mm_H7.0mm_P2.00mm" H 4888 2100 50  0001 C CNN
+F 2 "Capacitor_THT:C_Radial_D4.0mm_H5.0mm_P1.50mm" H 4888 2100 50  0001 C CNN
 F 3 "~" H 4850 2250 50  0001 C CNN
 	1    4850 2250
 	1    0    0    -1  
@@ -657,7 +655,6 @@ Wire Wire Line
 	2800 2200 2800 2450
 Connection ~ 3250 2450
 NoConn ~ 3000 1600
-NoConn ~ 7700 2450
 Text GLabel 5350 1900 2    50   Input ~ 0
 A0
 Wire Wire Line
@@ -682,11 +679,11 @@ Wire Wire Line
 Connection ~ 8100 2150
 Wire Wire Line
 	8100 1350 9050 1350
-Text GLabel 3600 5550 2    50   Input ~ 0
+Text GLabel 6050 4100 0    50   Input ~ 0
 RX
-Text GLabel 3600 5650 2    50   Input ~ 0
+Text GLabel 6050 4000 0    50   Input ~ 0
 TX
-Text GLabel 1800 4650 0    50   Input ~ 0
+Text GLabel 6050 4300 0    50   Input ~ 0
 ~Reset
 Text GLabel 10550 3000 2    50   Input ~ 0
 RX
@@ -694,78 +691,19 @@ Text GLabel 10550 2900 2    50   Input ~ 0
 TX
 Text Label 3700 2450 0    50   ~ 0
 +5V
-Text Label 3600 5050 0    50   ~ 0
-+3.3V
 $Comp
-L power:GND #PWR02
+L power:GND #PWR03
 U 1 1 5FD6B892
-P 3800 5150
-F 0 "#PWR02" H 3800 4900 50  0001 C CNN
-F 1 "GND" H 3805 4977 50  0000 C CNN
-F 2 "" H 3800 5150 50  0001 C CNN
-F 3 "" H 3800 5150 50  0001 C CNN
-	1    3800 5150
+P 6050 4700
+F 0 "#PWR03" H 6050 4450 50  0001 C CNN
+F 1 "GND" H 6055 4527 50  0000 C CNN
+F 2 "" H 6050 4700 50  0001 C CNN
+F 3 "" H 6050 4700 50  0001 C CNN
+	1    6050 4700
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3600 5150 3800 5150
-$Comp
-L rn2483:RN2483 U1
-U 1 1 5FE478AF
-P 2700 4850
-F 0 "U1" H 2700 3369 60  0000 C CNN
-F 1 "RN2483" H 2700 3263 60  0000 C CNN
-F 2 "MyAIME:RN2483" H 2700 3157 60  0000 C CNN
-F 3 "" H 2800 4150 60  0000 C CNN
-	1    2700 4850
-	1    0    0    -1  
-$EndComp
-NoConn ~ 2250 3850
-NoConn ~ 2400 3850
-NoConn ~ 2550 3850
-NoConn ~ 2700 3850
-NoConn ~ 2850 3850
-NoConn ~ 3000 3850
-NoConn ~ 3150 3850
-NoConn ~ 3600 4250
-NoConn ~ 3600 4350
-NoConn ~ 3600 4450
-NoConn ~ 3600 4550
-NoConn ~ 3600 4650
-NoConn ~ 3600 4750
-NoConn ~ 3600 4850
-NoConn ~ 3600 4950
-NoConn ~ 3600 5250
-NoConn ~ 3600 5350
-NoConn ~ 3600 5450
-NoConn ~ 3600 5750
-NoConn ~ 3600 5850
-NoConn ~ 3600 5950
-NoConn ~ 3600 6050
-NoConn ~ 3600 6150
-NoConn ~ 1800 6150
-NoConn ~ 1800 6050
-NoConn ~ 1800 5950
-NoConn ~ 1800 5850
-NoConn ~ 1800 5750
-NoConn ~ 1800 5650
-NoConn ~ 1800 5550
-NoConn ~ 1800 5450
-NoConn ~ 1800 5350
-NoConn ~ 1800 5250
-NoConn ~ 1800 5150
-NoConn ~ 1800 5050
-NoConn ~ 1800 4950
-NoConn ~ 1800 4850
-NoConn ~ 1800 4750
-NoConn ~ 1800 4550
-NoConn ~ 1800 4450
-NoConn ~ 1800 4350
-NoConn ~ 1800 4250
 NoConn ~ 8900 2700
 NoConn ~ 8900 2800
-NoConn ~ 8900 2900
-NoConn ~ 8900 3000
 NoConn ~ 10550 2800
 NoConn ~ 10550 2700
 NoConn ~ 10550 2600
@@ -779,7 +717,65 @@ NoConn ~ 10550 1800
 NoConn ~ 10550 1700
 NoConn ~ 10550 1600
 NoConn ~ 10550 1400
-NoConn ~ 10550 1300
-NoConn ~ 10550 1200
 NoConn ~ 9350 1450
+Wire Wire Line
+	6050 4700 6250 4700
+Wire Wire Line
+	6050 4500 6250 4500
+Wire Wire Line
+	6050 4300 6250 4300
+Wire Wire Line
+	6050 4100 6250 4100
+Wire Wire Line
+	6050 4000 6250 4000
+$Comp
+L Connector:Conn_01x08_Female J1
+U 1 1 5FD2D1AF
+P 6450 4300
+F 0 "J1" H 6050 3550 50  0000 L CNN
+F 1 "Conn_01x08_Female" H 6500 3600 50  0000 R BNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical" H 6450 4300 50  0001 C CNN
+F 3 "~" H 6450 4300 50  0001 C CNN
+	1    6450 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L RN2483_Breakout:RN2483_Breakout U2
+U 1 1 5FD24A37
+P 7150 4400
+F 0 "U2" V 7004 4978 50  0000 L CNN
+F 1 "RN2483_Breakout" V 7095 4978 50  0000 L CNN
+F 2 "MyAIME:SIP-8" V 7186 4978 50  0000 L CNN
+F 3 "" H 7150 5050 50  0001 C CNN
+	1    7150 4400
+	0    1    1    0   
+$EndComp
+NoConn ~ 6250 4200
+NoConn ~ 6250 4400
+NoConn ~ 6250 4600
+NoConn ~ 7100 4000
+NoConn ~ 7100 4100
+NoConn ~ 7100 4200
+NoConn ~ 7100 4300
+NoConn ~ 7100 4400
+NoConn ~ 7100 4500
+NoConn ~ 7100 4600
+NoConn ~ 7100 4700
+Text GLabel 8650 1800 0    50   Input ~ 0
+~Reset
+$Comp
+L power:+3.3V #PWR02
+U 1 1 5FD8F9CE
+P 6050 4500
+F 0 "#PWR02" H 6050 4350 50  0001 C CNN
+F 1 "+3.3V" V 6065 4628 50  0000 L CNN
+F 2 "" H 6050 4500 50  0001 C CNN
+F 3 "" H 6050 4500 50  0001 C CNN
+	1    6050 4500
+	0    -1   -1   0   
+$EndComp
+Text GLabel 8900 2500 0    50   Input ~ 0
+A0
+Wire Wire Line
+	10200 1200 10550 1200
 $EndSCHEMATC
