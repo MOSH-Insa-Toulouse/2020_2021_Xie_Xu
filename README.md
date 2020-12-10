@@ -60,7 +60,7 @@ If you want, you can place a tractor or Trump model on the circuit board
 
 ## Component placement
 
-<img src="Placement.jpg" width="500">
+<div align=center><img width="150" height="150" src="Images/Placement.jpg" alt="test"/></div>
 
 ## Routage
 
