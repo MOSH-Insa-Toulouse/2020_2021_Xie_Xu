@@ -1,0 +1,4 @@
+# This is the doc where we write the type of document we do not want
+
+# Executables
+*.app
