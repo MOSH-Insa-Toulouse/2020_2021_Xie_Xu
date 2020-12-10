@@ -36,9 +36,13 @@ Contact : [Qiang XU](qxu@etud.insa-toulouse.fr)
 #### KiCad Tools used
 
 [KiCad EDA - Schematic Capture & PCB Design Software](https://kicad-pcb.org/), version: 5.1.8
+
 Open source EDA / electronics CAD software for Windows, macOS and Linux.
+
 [Find 3D mod as you want!](https://grabcad.com/library)
+
 If you want, you can place a tractor or Trump model on the circuit board
+
 [Library of kicad](https://gitlab.com/kicad/libraries)
 
 #### Librairies de composants
@@ -56,9 +60,7 @@ If you want, you can place a tractor or Trump model on the circuit board
 
 ## Component placement
 
-<!-- ![Place components](Placement.jpg) -->
-
-<img src="Placement.jpg" width="666">
+<img src="Placement.jpg" width="500">
 
 ## Routage
 
