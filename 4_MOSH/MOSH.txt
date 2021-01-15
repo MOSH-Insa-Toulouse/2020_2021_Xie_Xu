@@ -1,0 +1,5 @@
+Our team is formed by two Chinese students who have entered INSA Toulouse since 4A. 
+Considering our French level and background knowledge, we chose to carry out the TPs
+to increase our skills about microcontrollers and open source hardware.
+
+This part is described in portfolio.
